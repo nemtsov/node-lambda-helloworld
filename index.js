@@ -1,3 +1,6 @@
+var sass = require('node-sass');
+
 exports.handler = function (event, context) {
-  context.succeed('Hello world!');
+  var style = sass.renderSync({data: 'a { color: blue; }'}).css.toString();
+  context.succeed('<a style="' + style + '">Hello world!</a>');
 };

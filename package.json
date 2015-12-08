@@ -3,12 +3,14 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "https://github.dowjones.net/NemtsovY/node-lambda-helloworld.git"
   },
   "author": "Yuriy Nemtsov <nemtsov@gmail.com> (http://yuriynemtsov.com/)",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "node-sass": "^3.4.2"
+  }
 }

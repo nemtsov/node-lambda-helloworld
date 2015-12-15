@@ -11,6 +11,5 @@
   "author": "Yuriy Nemtsov <nemtsov@gmail.com> (http://yuriynemtsov.com/)",
   "license": "MIT",
   "dependencies": {
-    "node-sass": "^3.4.2"
   }
 }
